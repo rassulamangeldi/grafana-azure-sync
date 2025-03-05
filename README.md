@@ -71,8 +71,9 @@ SYNC_GROUPS=your_group_1,your_group_2
 ```
 
 4. **Run the Docker container:**
+```bash
 docker run --env-file .env --rm grafana-azure-sync:latest
-
+```
 
 ### How It Works:
 
