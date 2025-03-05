@@ -11,7 +11,6 @@ client_id = os.getenv('CLIENT_ID')
 client_secret = os.getenv('CLIENT_SECRET')
 grafana_api_key = os.getenv('GRAFANA_API_KEY')
 grafana_url = os.getenv('GRAFANA_URL')
-grafana_org_id = os.getenv('GRAFANA_ORG_ID')
 
 # Specify the group names or group IDs you want to sync
 sync_groups = os.getenv('SYNC_GROUPS', '').split(',')
